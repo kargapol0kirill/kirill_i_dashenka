@@ -1,0 +1,26 @@
+{
+  "name": "vk_mini_apps_server_kid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js",
+    "dev" : "supervisor index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kargapol0kirill/kirill_i_dashenka.git"
+  },
+  "author": "i",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kargapol0kirill/kirill_i_dashenka/issues"
+  },
+  "homepage": "https://github.com/kargapol0kirill/kirill_i_dashenka#readme",
+
+  "dependencies": {
+"lowdb" : "^1.0.0",
+"socket.io" : "^3.1.0",
+"supervisor" : "^0.12.0"
+  }
+}
