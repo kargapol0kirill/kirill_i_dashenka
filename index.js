@@ -12,9 +12,23 @@ cors:
 const log = console.log
 
 //получаем обработчикa событий
+const registerMessageHandlers = require('./handlers/messageHandlers')
+const registerUserHandlers = require('./handlers/userHandlers')
+
+
 
 const onConnection = (socket) => {
+    //выводим сообщение о подлючении пользователя
+    log('User connection')
 
+    registerMessageHandlers(io, socket)
+    registerUserHandlers(io, socket)
+
+    //обработка отключения сокета пользователя
+    socket.on('disconnect', () => {
+        //выводим сообщение
+        log('User disconnect')
+    })
 }
 
 //обрабатываем подключение
