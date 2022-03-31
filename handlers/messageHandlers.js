@@ -47,7 +47,7 @@ module.exports = (io, socket) => {
         db.get('messages')
         .push({
             messageId: nanoid(8),
-            createdAt: new Data(),
+            createdAt: new Date(),
             ...message
 
         })
