@@ -17,7 +17,7 @@ db.defaults({
             messageid : '1',
             userid : '1',
             senderName : 'judy',
-            messageText : 'What are u duing here&',
+            messageText : 'What are u doing&',
             createAt: "2021-01-14",
             avatar: 'https://gamerbay.ru/wp-content/uploads/2021/01/judyalvarez.jpg'
         },
@@ -25,7 +25,7 @@ db.defaults({
             messageid : '2',
             userid : '2',
             senderName : 'Vi',
-            messageText : 'Fuck u',
+            messageText : 'Im drink with Takemura',
             createAt: "2021-02-15",
             avatar: 'https://modslab.net/files/mods/cyberpunk_2077/9sr95k3RSE/img1.jpg'
         }
